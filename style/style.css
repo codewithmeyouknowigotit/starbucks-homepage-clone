@@ -39,6 +39,7 @@ img {
   max-width: 100%;
 }
 
+/* //////////////////////// */
 /* Navbar */
 .navbar {
   width: 100%;
@@ -97,4 +98,34 @@ img {
   height: 20px;
   width: 20px;
   margin-right: 10px;
+}
+
+.navbar-nav-right li:nth-child(2) {
+  margin: 0 5px;
+}
+
+/* //////////////////////// */
+/* Buttons */
+.btn-dark-outline {
+  border-color: #000;
+  color: #000;
+}
+
+/* For button coming later below page */
+.btn-light-outline {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-dark-outline:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #333;
 }
