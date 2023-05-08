@@ -121,7 +121,8 @@ section a {
   color: #fff;
 }
 
-.btn-dark-outline:hover {
+.btn-dark-outline:hover,
+.btn-light-outline:hover {
   background-color: rgba(0, 0, 0, 0.06);
 }
 
