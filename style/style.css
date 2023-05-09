@@ -183,6 +183,36 @@ section a {
   }
 }
 
+@media (max-width: 768px) {
+  /* Changes it to a single column */
+  .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+
+  /* On smaller screens we put the image first on top */
+  .grid-reversed :first-child {
+    order: 0;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar .navbar-nav-left,
+  .navbar .navbar-nav-right {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}
+
 @media (min-width: 1440px) {
   .box {
     max-width: 1440px;
