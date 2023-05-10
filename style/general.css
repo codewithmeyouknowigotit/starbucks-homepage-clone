@@ -125,6 +125,7 @@
   border: none;
   z-index: 10;
   transition: all 0.25s;
+  display: none;
 }
 
 .hamburger-top,
@@ -146,4 +147,14 @@
 
 .hamburger-bottom {
   transform: translateY(14px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }

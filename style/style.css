@@ -184,6 +184,10 @@ section a {
 }
 
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
   /* Changes it to a single column */
   .grid-col-2 {
     grid-template-columns: 1fr;
